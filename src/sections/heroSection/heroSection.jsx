@@ -2,28 +2,6 @@ import React, { useState } from 'react';
 import './heroSection.css';
 
 const HeroSection = () => {
-  const [cnpj, setCnpj] = useState('');
-
-  const handleCnpjChange = (e) => {
-    let value = e.target.value;
-    value = value.replace(/\D/g, '');
-    if (value.length <= 14) {
-      value = value.replace(/^(\d{2})(\d)/g, '$1.$2');
-      value = value.replace(/^(\d{2})\.(\d{3})(\d)/g, '$1.$2.$3');
-      value = value.replace(/\.(\d{3})(\d)/g, '.$1/$2');
-      value = value.replace(/(\d{4})(\d)/g, '$1-$2');
-    }
-    setCnpj(value);
-  };
-
-  const handleSubmit = () => {
-    const cleanCnpj = cnpj.replace(/\D/g, '');
-    if (cleanCnpj.length === 14) {
-      window.location.href = `/login?cnpj=${cleanCnpj}`;
-    } else {
-      alert('Por favor, insira um CNPJ válido');
-    }
-  };
 
   const handleWhatsAppClick = () => {
     // Replace with your actual WhatsApp Business link

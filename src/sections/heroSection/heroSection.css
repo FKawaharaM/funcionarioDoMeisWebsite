@@ -30,13 +30,13 @@
 
 .hero-subheader-a {
     font-size: 40px;
-    font-family: var(--font-tertiary);
+    font-family: var(--font-primary);
     font-weight: 400;
 }
 
 .hero-subheader-b {
     font-size: 40px;
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
     font-weight: 300;
 }
 
