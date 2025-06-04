@@ -5,9 +5,9 @@
 }
 
 :root {
-  --font-primary: 'Hanken Grotesk', sans-serif;
-  --font-secondary: 'IBM Plex Sans', sans-serif;
-  --font-tertiary: 'Quicksand', sans-serif;
+  --font-primary: 'Nunito', sans-serif;
+  --font-secondary: 'Roboto Mono', sans-serif;
+  --font-tertiary: 'Nunito Sans', sans-serif;
 }
 
 body {

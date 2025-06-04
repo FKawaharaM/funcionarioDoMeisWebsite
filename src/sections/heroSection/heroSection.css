@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    padding-left: 5%
 }
 
 .hero-content {
@@ -91,6 +92,7 @@
     border-radius: 8px;
     cursor: pointer;
     font-family: var(--font-primary);
+    font-weight: 500;
     transition: background-color 0.3s ease;
 }
 
@@ -111,5 +113,39 @@
 
     .submit-button {
         width: 100%;
+    }
+}
+
+.whatsapp-button-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: left;
+}
+
+.whatsapp-button {
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 211, 102, 0.3);
+}
+
+@media (max-width: 768px) {
+    .whatsapp-button {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 1.2rem 2rem;
+        font-style: 500;
     }
 }

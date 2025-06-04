@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import meireMeirelesLogo from '../assets/meireMeirelesLogo.svg';
+import meireMeirelesLogo from '../assets/funcionarioDoMeis_logo.svg';
 
 const Navbar = () => {
   return (
@@ -12,7 +12,6 @@ const Navbar = () => {
         <li><a href="#sobre">Sobre nós</a></li>
         <li><a href="#time">Time</a></li>
         <li><a href="#contato">Contato</a></li>
-        <li><a href="#cadastro">Cadastro</a></li>
       </ul>
     </nav>
   );

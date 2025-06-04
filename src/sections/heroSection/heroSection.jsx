@@ -25,31 +25,20 @@ const HeroSection = () => {
     }
   };
 
+  const handleWhatsAppClick = () => {
+    // Replace with your actual WhatsApp Business link
+    window.location.href = 'https://wa.me/yournumber';
+  };
+
   return (
     <section className="hero">
       <div className="hero-content">
         <h1 className="hero-header">
-          Os funcionários que todo MEI deveria ter.
+          O funcionário que todo MEI deveria ter.
         </h1>
-        <div className="hero-subheaders">
-          <h2 className="hero-subheader-a">
-            ✍️ MEIre vai organizar seu dia a dia.
-          </h2>
-          <h2 className="hero-subheader-b">
-            🤝 MEIreles vai achar novos clientes.
-          </h2>
-        </div>
-        <div className="cnpj-input-container">
-          <input
-            type="text"
-            placeholder="Digite seu CNPJ"
-            value={cnpj}
-            onChange={handleCnpjChange}
-            maxLength="18"
-            className="cnpj-input"
-          />
-          <button className="submit-button" onClick={handleSubmit}>
-            Começar
+        <div className="whatsapp-button-container">
+          <button className="whatsapp-button" onClick={handleWhatsAppClick}>
+            Organize seu dia a dia agora no ZAP
           </button>
         </div>
       </div>
