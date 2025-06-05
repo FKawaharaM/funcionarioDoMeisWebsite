@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={meireMeirelesLogo} alt="Meire & Meireles Logo" />
       </div>
       <ul className="navbar-links">
-        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#sobre">Sobre</a></li>
         <li><a href="#time">Time</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
