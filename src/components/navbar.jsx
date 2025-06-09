@@ -1,6 +1,6 @@
 import React from 'react';
 import './navbar.css';
-import meireMeirelesLogo from '../assets/funcionarioDoMeis_Logo.svg';
+import meireMeirelesLogo from '../assets/MEIreMEIreles_logo_v2.svg';
 
 const Navbar = () => {
   return (
