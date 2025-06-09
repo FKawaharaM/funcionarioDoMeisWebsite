@@ -42,7 +42,7 @@
   font-size: 92px;
   line-height: 1.5; /* Changed to match list item line height */
   margin-bottom: 3rem;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   position: relative;
   min-height: 180px;
   display: flex;
@@ -55,7 +55,7 @@
   font-size: 48px;
   line-height: 1.2;
   margin-top: 1rem;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: 400;
   color: #333;
 }
@@ -107,7 +107,7 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-weight: 600;
   transition: all 0.3s ease;
   position: relative;
@@ -164,7 +164,7 @@
 .feature-list li {
   font-size: 48px;
   line-height: 1.5;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   width: 100%; /* Ensure full width */
   margin-bottom: 2rem;
 }
