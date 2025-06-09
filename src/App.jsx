@@ -5,7 +5,7 @@ import LogoZAP from './assets/Logo-ZAP.svg';
 
 const texts = [
   <div>
-    <h1 className="hero-header">O funcionário que todo MEI deveria ter.</h1>
+    <h1 className="hero-header">Os funcionários que todo MEI deveria ter.</h1>
     <p className="hero-subtitle">Comece a organizar o seu dia a dia hoje. É grátis!</p>
   </div>,
   <ul className="feature-list">
