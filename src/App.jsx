@@ -4,17 +4,25 @@ import Navbar from './components/navbar';
 import LogoZAP from './assets/Logo-ZAP.svg';
 
 const texts = [
-  <div>
+  <div key="slide1">
     <h1 className="hero-header">Os funcionários que todo <br /> MEI deveria ter.</h1>
     <p className="hero-subtitle">Comece a organizar o seu dia a dia hoje. É grátis!</p>
   </div>,
-<div>
-<h1 classname="hero-header">O funcionário digital que <br /> todo MEI precisa!</h1>
-  <ul className="feature-list">
-    <li>- Organize seus horários 🗓️</li>
-    <li>- Crie lembretes 🔔</li>
-    <li>- E nunca mais esqueça de um cliente! 🤓</li>
-  </ul>
+  <div key="slide2">
+    <p className="hero-subtitle">Use a MEIre para:</p>
+    <ul className="feature-list">
+      <li>- Organizar seus horários 🗓️</li>
+      <li>- Criar lembretes 🔔</li>
+      <li>- E nunca mais esquecer de um cliente! 🤓</li>
+    </ul>
+  </div>,
+  <div key="slide3" className="roboto-mono">
+    <p className="hero-subtitle-meireles">Use o MEIreles para:</p>
+    <ul className="feature-list-meireles">
+      <li>- Expandir suas vendas 📈</li>
+      <li>- Melhorar sua vitrine virtual 🛍️</li>
+      <li>- Se preparar para vender em datas comemorativas! 📅</li>
+    </ul>
   </div>
 ];
 
@@ -28,7 +36,7 @@ function App() {
       setTimeout(() => {
         setCurrentTextIndex((prev) => (prev + 1) % texts.length);
         setIsAnimating(false);
-      }, 500); // Half of the animation duration
+      }, 1000); // Increased from 500ms to 1000ms for smoother transition
     }, 5000);
 
     return () => clearInterval(interval);

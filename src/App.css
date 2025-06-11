@@ -55,7 +55,19 @@
   font-size: 48px;
   line-height: 1.2;
   margin-top: 1rem;
+  margin-bottom: 2rem;
   font-family: var(--font-secondary);
+  font-weight: 400;
+  color: #333;
+}
+
+/* New subtitle style for MEIreles */
+.hero-subtitle-meireles {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   color: #333;
 }
@@ -169,6 +181,36 @@
   margin-bottom: 2rem;
 }
 
+/* New styles for feature-list-meireles */
+.feature-list-meireles {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature-list-meireles li {
+  font-size: 48px;
+  line-height: 1.5;
+  font-family: 'Roboto Mono', monospace;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+/* Add this new style for the MEIreles header */
+.feature-list-meireles p {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: #333;
+}
+
 /* Large screen breakpoint */
 @media (max-width: 1400px) {
   .hero-header {
@@ -178,6 +220,12 @@
   }
   
   .feature-list li {
+    font-size: 56px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
+  .feature-list-meireles li {
     font-size: 56px;
     margin-bottom: 2rem;
     line-height: 1.5;
@@ -202,6 +250,12 @@
     line-height: 1.5;
   }
 
+  .feature-list-meireles li {
+    font-size: 48px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+
   .text-container {
     height: 450px; /* Increased height for tablets */
   }
@@ -221,7 +275,19 @@
     line-height: 3rem;
   }
 
+  .hero-subtitle-meireles {
+    font-size: 28px;
+    line-height: 1.2;
+    line-height: 3rem;
+  }
+
   .feature-list li {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .feature-list-meireles li {
     font-size: 28px;
     margin-bottom: 1.5rem;
     line-height: 1.5;
