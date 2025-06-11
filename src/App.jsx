@@ -5,14 +5,17 @@ import LogoZAP from './assets/Logo-ZAP.svg';
 
 const texts = [
   <div>
-    <h1 className="hero-header">Os funcionários que todo MEI deveria ter.</h1>
+    <h1 className="hero-header">Os funcionários que todo <br /> MEI deveria ter.</h1>
     <p className="hero-subtitle">Comece a organizar o seu dia a dia hoje. É grátis!</p>
   </div>,
+<div>
+<h1 classname="hero-header">O funcionário digital que <br /> todo MEI precisa!</h1>
   <ul className="feature-list">
     <li>- Organize seus horários 🗓️</li>
     <li>- Crie lembretes 🔔</li>
     <li>- E nunca mais esqueça de um cliente! 🤓</li>
   </ul>
+  </div>
 ];
 
 function App() {
